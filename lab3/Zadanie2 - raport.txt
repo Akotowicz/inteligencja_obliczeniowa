@@ -1,0 +1,69 @@
+ilość mrówek - 20
+pheromone_evaporation_rate - 0.4
+iterations - 30
+alpha=0.8, beta=10.8,
+-- 438.4296839843325
+
+ilość mrówek - 20
+pheromone_evaporation_rate - 0.4
+iterations - 30
+alpha=0.8, beta=1.8,
+-- 398.4101996304628
+
+ilość mrówek - 5
+pheromone_evaporation_rate - 0.4
+iterations - 30
+alpha=0.5, beta=1.2
+-- 398.4101996304628
+
+ilość mrówek - 20
+pheromone_evaporation_rate - 0.4
+iterations - 30
+alpha=0.2, beta=0.8,
+-- 414.0826588109787
+
+ilość mrówek - 30
+pheromone_evaporation_rate - 0.4
+iterations - 30
+-- 398.4101996304628
+
+ilość mrówek - 10
+pheromone_evaporation_rate - 0.4
+iterations - 30
+-- 404.1188588214551
+
+ilość mrówek - 200
+pheromone_evaporation_rate - 0.4
+iterations - 100
+-- 454.0443590532235
+
+ilość mrówek - 100
+pheromone_evaporation_rate - 0.2
+iterations - 30
+-- 451.9172741300809
+
+ilość mrówek - 200
+pheromone_evaporation_rate - 0.7
+iterations - 30
+-- 430.10564227064395
+
+ilość mrówek - 300
+pheromone_evaporation_rate - 0.1
+iterations - 30
+-- 458.06989213454636
+
+ilość mrówek - 5
+pheromone_evaporation_rate - 0.3
+iterations - 30
+-- 454.0443590532235
+
+ilość mrówek - 70
+pheromone_evaporation_rate - 0.4
+iterations - 30
+-- 451.9172741300809
+
+ilość mrówek - 20
+pheromone_evaporation_rate - 0.4
+iterations - 30
+alpha=0.2, beta=0.5,
+-- 462.95278290976654
