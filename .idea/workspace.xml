@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ada4fbb-615f-4a26-ae0c-76d12b3b29c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lab3/Zadanie1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/Zadanie2 - raport.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/Zadanie2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/aco-tsp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/plot0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/pso-animation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/pso-sphere.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/report.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab3/z1.gif" afterDir="false" />
+    <list default="true" id="2ada4fbb-615f-4a26-ae0c-76d12b3b29c8" name="Changes" comment="lab3 -- done">
+      <change afterPath="$PROJECT_DIR$/lab4/Zadanie1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/Zadanie2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/Zadanie3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/Zadanie4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/iris.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IO-01-Intro.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IO-02-AlgGen-Z.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/partition_ga.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/partition_ga.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,15 +40,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lab3/Zadanie2.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lab4/Zadanie4.py" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Aga\Desktop\all\studia\magisterka\inteligencja_obliczeniowa\lab4" />
       <recent name="C:\Users\Aga\Desktop\all\studia\magisterka\inteligencja_obliczeniowa\lab2" />
       <recent name="C:\Users\Aga\Desktop\all\studia\magisterka\inteligencja_obliczeniowa\lab3" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.3.1">
+  <component name="RunManager" selected="Python.4.4">
     <configuration name="2.1" type="PythonConfigurationType" factoryName="Python">
       <module name="inteligencja_obliczeniowa" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -119,7 +114,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2.4" type="PythonConfigurationType" factoryName="Python">
+    <configuration name="2.4_____" type="PythonConfigurationType" factoryName="Python">
       <module name="inteligencja_obliczeniowa" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -161,7 +156,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="3.2" type="PythonConfigurationType" factoryName="Python">
+    <configuration name="3.2_____" type="PythonConfigurationType" factoryName="Python">
       <module name="inteligencja_obliczeniowa" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -174,6 +169,90 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab3/Zadanie2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="4.1" type="PythonConfigurationType" factoryName="Python">
+      <module name="inteligencja_obliczeniowa" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Python310\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab4/Zadanie1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="4.2" type="PythonConfigurationType" factoryName="Python">
+      <module name="inteligencja_obliczeniowa" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Python310\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab4/Zadanie2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="4.3" type="PythonConfigurationType" factoryName="Python">
+      <module name="inteligencja_obliczeniowa" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Python310\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab4/Zadanie3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="4.4" type="PythonConfigurationType" factoryName="Python">
+      <module name="inteligencja_obliczeniowa" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Python310\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab4/Zadanie4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -230,9 +309,13 @@
       <item itemvalue="Python.2.1" />
       <item itemvalue="Python.2.2" />
       <item itemvalue="Python.2.3" />
-      <item itemvalue="Python.2.4" />
+      <item itemvalue="Python.2.4_____" />
       <item itemvalue="Python.3.1" />
-      <item itemvalue="Python.3.2" />
+      <item itemvalue="Python.3.2_____" />
+      <item itemvalue="Python.4.1" />
+      <item itemvalue="Python.4.2" />
+      <item itemvalue="Python.4.3" />
+      <item itemvalue="Python.4.4" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -244,6 +327,14 @@
       <option name="presentableId" value="Default" />
       <updated>1696679168785</updated>
     </task>
+    <task id="LOCAL-00001" summary="lab3 -- done">
+      <created>1698501562427</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698501562427</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -259,5 +350,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="lab3 -- done" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab3 -- done" />
   </component>
 </project>
