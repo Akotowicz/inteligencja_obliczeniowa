@@ -1,4 +1,6 @@
 *.pdf
-
 .idea`
-./notatki
+notatki/*
+notatki/*.py
+notatki/n.txt
+notatki/Lab5z2.py
