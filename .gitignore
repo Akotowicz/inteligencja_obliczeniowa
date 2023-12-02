@@ -4,3 +4,6 @@ notatki/*
 notatki/*.py
 notatki/n.txt
 notatki/Lab5z2.py
+lab6/dogs-cats-mini
+lab6/dogs-cats-mini/*.jpg
+*.jpg
