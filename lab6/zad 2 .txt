@@ -1,0 +1,142 @@
+from keras.models import Sequential
+from keras.layers import Conv2D, MaxPooling2D, Dropout, Flatten, Dense, Activation, BatchNormalization
+import numpy as np
+import pandas as pd
+from keras.preprocessing.image import ImageDataGenerator
+from keras.utils import to_categorical, load_img
+from sklearn.model_selection import train_test_split
+import matplotlib.pyplot as plt
+import random
+from keras.callbacks import EarlyStopping, ReduceLROnPlateau
+import cv2
+import os
+
+filenames = os.listdir("./dogs-cats-mini/")
+FILE_PATH = "./dogs-cats-mini/"
+IMAGE_SIZE = 55
+
+categories = []
+for img in filenames:
+    category = img.split('.')[0]
+    if category == 'dog':
+        categories.append(1)
+    else:
+        categories.append(0)
+
+    img = cv2.resize(
+        cv2.imread(os.path.join(FILE_PATH, img), cv2.IMREAD_GRAYSCALE),
+        (IMAGE_SIZE, IMAGE_SIZE)
+    )
+
+df = pd.DataFrame({
+    'filename': filenames,
+    'category': categories
+})
+
+# ######################## build model ################################################
+model = Sequential()
+
+model.add(Conv2D(32, (3, 3), activation='relu', input_shape=(54, 40, 3)))
+model.add(BatchNormalization())
+model.add(MaxPooling2D(pool_size=(2, 2)))
+model.add(Dropout(0.25))
+
+model.add(Conv2D(64, (3, 3), activation='relu'))
+model.add(BatchNormalization())
+model.add(MaxPooling2D(pool_size=(2, 2)))
+model.add(Dropout(0.25))
+
+model.add(Conv2D(128, (3, 3), activation='relu'))
+model.add(BatchNormalization())
+model.add(MaxPooling2D(pool_size=(2, 2)))
+model.add(Dropout(0.25))
+
+model.add(Flatten())
+model.add(Dense(512, activation='relu'))
+model.add(BatchNormalization())
+model.add(Dropout(0.5))
+model.add(Dense(2, activation='softmax')) # 2 because we have cat and dog classes
+
+model.compile(loss='categorical_crossentropy', optimizer='rmsprop', metrics=['accuracy'])
+# model.summary()
+
+# ######################## callbacks ################################################
+earlystop = EarlyStopping(patience=10)
+learning_rate_reduction = ReduceLROnPlateau(monitor='val_acc', patience=2, verbose=1, factor=0.5, min_lr=0.00001)
+callbacks = [earlystop, learning_rate_reduction]
+
+# ######################## prepare data ################################################
+df["category"] = df["category"].replace({0: 'cat', 1: 'dog'})
+
+train_df, validate_df = train_test_split(df, test_size=0.20, random_state=42)
+train_df = train_df.reset_index(drop=True)
+validate_df = validate_df.reset_index(drop=True)
+
+total_train = train_df.shape[0]
+total_validate = validate_df.shape[0]
+batch_size=15
+# ######################## training generator ################################################
+
+train_datagen = ImageDataGenerator(
+    rotation_range=15,
+    rescale=1./255,
+    shear_range=0.1,
+    zoom_range=0.2,
+    horizontal_flip=True,
+    width_shift_range=0.1,
+    height_shift_range=0.1
+)
+
+train_generator = train_datagen.flow_from_dataframe(
+    train_df,
+    "./dogs-cats-mini/",
+    x_col='filename',
+    y_col='category',
+    target_size=IMAGE_SIZE,
+    class_mode='categorical',
+    batch_size=batch_size
+)
+
+validation_datagen = ImageDataGenerator(rescale=1./255)
+validation_generator = validation_datagen.flow_from_dataframe(
+    validate_df,
+    "./dogs-cats-mini/",
+    x_col='filename',
+    y_col='category',
+    target_size=IMAGE_SIZE,
+    class_mode='categorical',
+    batch_size=batch_size
+)
+
+example_df = train_df.sample(n=1).reset_index(drop=True)
+example_generator = train_datagen.flow_from_dataframe(
+    example_df,
+    "./dogs-cats-mini/",
+    x_col='filename',
+    y_col='category',
+    target_size=IMAGE_SIZE,
+    class_mode='categorical'
+)
+# ######################## validation generator
+validation_datagen = ImageDataGenerator(rescale=1./255)
+validation_generator = validation_datagen.flow_from_dataframe(
+    validate_df,
+    "./dogs-cats-mini/",
+    x_col='filename',
+    y_col='category',
+    target_size=IMAGE_SIZE,
+    class_mode='categorical',
+    batch_size=batch_size
+)
+
+# ######################## dzialanie generatorów ################################################
+example_df = train_df.sample(n=1).reset_index(drop=True)
+example_generator = train_datagen.flow_from_dataframe(
+    example_df,
+    "./dogs-cats-mini/",
+    x_col='filename',
+    y_col='category',
+    target_size=IMAGE_SIZE,
+    class_mode='categorical',
+    batch_size=batch_size
+)
