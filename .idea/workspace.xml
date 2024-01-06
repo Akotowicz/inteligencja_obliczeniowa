@@ -1,35 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ada4fbb-615f-4a26-ae0c-76d12b3b29c8" name="Changes" comment="lab 7">
-      <change afterPath="$PROJECT_DIR$/lab6/zad 2 .txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/Zad1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/Zad4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/gan/gan01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/gan/gan02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/gan/gan03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/gan/gan04.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/gan/gan05.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/gan/gan06.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/gan/gan07.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/gan/generated_plot_e001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/gan/generated_plot_e002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/gan/generated_plot_e003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/gan/generator_model_001.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/rnn-lstm/big-token-model-4-30-4.2707.hdf5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/rnn-lstm/lstm01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/rnn-lstm/lstm02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/rnn-lstm/lstm03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/rnn-lstm/lstm04.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/rnn-lstm/lstm05.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/rnn-lstm/lstm_plot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/rnn-lstm/rnn01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/rnn-lstm/rnn02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/rnn-lstm/rnn03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/rnn-lstm/rnn_plot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/rnn-lstm/wonderland.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/zad4.1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/zad4.png" afterDir="false" />
+    <list default="true" id="2ada4fbb-615f-4a26-ae0c-76d12b3b29c8" name="Changes" comment="lab 8">
+      <change afterPath="$PROJECT_DIR$/lab6/Zadanie2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/article1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/gan/generator_model_200.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/rnn-lstm/weights-improvement-01-3.0192.hdf5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/rnn-lstm/weights-improvement-02-2.8466.hdf5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/rnn-lstm/weights-improvement-03-2.7645.hdf5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/rnn-lstm/weights-improvement-04-2.6997.hdf5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/rnn-lstm/weights-improvement-05-2.6442.hdf5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/rnn-lstm/weights-improvement-06-2.5870.hdf5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/rnn-lstm/weights-improvement-07-2.5359.hdf5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/rnn-lstm/weights-improvement-08-2.4920.hdf5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/rnn-lstm/weights-improvement-09-2.4529.hdf5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/rnn-lstm/weights-improvement-10-2.4140.hdf5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/rnn-lstm/weights-improvement-11-2.3762.hdf5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/rnn-lstm/weights-improvement-12-2.3413.hdf5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/rnn-lstm/weights-improvement-13-2.3082.hdf5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/rnn-lstm/weights-improvement-16-2.2601.hdf5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/rnn-lstm/weights-improvement-17-2.2381.hdf5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/rnn-lstm/weights-improvement-18-2.2181.hdf5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/rnn-lstm/weights-improvement-19-2.2021.hdf5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/rnn-lstm/weights-improvement-20-2.1834.hdf5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/zad4.2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projekt/01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projekt/ImgConventer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projekt/Project1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +78,7 @@
       <recent name="C:\Users\Aga\Desktop\all\studia\magisterka\inteligencja_obliczeniowa\lab6" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Zad4dm">
+  <component name="RunManager" selected="Python.Project1">
     <configuration name="2.1" type="PythonConfigurationType" factoryName="Python">
       <module name="inteligencja_obliczeniowa" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -480,7 +478,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Zad4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ImgConventer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="inteligencja_obliczeniowa" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -488,11 +486,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab8" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/projekt" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Aga\Desktop\all\studia\magisterka\inteligencja_obliczeniowa\lab8\Zad4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/projekt/ImgConventer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Project" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="inteligencja_obliczeniowa" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/projekt" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/projekt/Project.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Project1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="inteligencja_obliczeniowa" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/projekt" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/projekt/Project1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -606,27 +646,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lstm04" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="inteligencja_obliczeniowa" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab8/rnn-lstm" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab8/rnn-lstm/lstm04.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="lstm05" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="inteligencja_obliczeniowa" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -640,27 +659,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab8/rnn-lstm/lstm05.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="rnn01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="inteligencja_obliczeniowa" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab8/rnn-lstm" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab8/rnn-lstm/rnn01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -694,18 +692,18 @@
       <item itemvalue="Python.gan07" />
       <item itemvalue="Python.8.3" />
       <item itemvalue="Python.lstm03" />
-      <item itemvalue="Python.lstm04" />
       <item itemvalue="Python.lstm05" />
-      <item itemvalue="Python.rnn01" />
-      <item itemvalue="Python.Zad4dm" />
+      <item itemvalue="Python.ImgConventer" />
+      <item itemvalue="Python.Project" />
+      <item itemvalue="Python.Project1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Zad4dm" />
+        <item itemvalue="Python.Project1" />
+        <item itemvalue="Python.Project" />
+        <item itemvalue="Python.ImgConventer" />
         <item itemvalue="Python.lstm05" />
         <item itemvalue="Python.lstm03" />
-        <item itemvalue="Python.rnn01" />
-        <item itemvalue="Python.lstm04" />
       </list>
     </recent_temporary>
   </component>
@@ -760,7 +758,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702663854231</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="lab 8">
+      <created>1703949954390</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1703949954390</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -782,6 +787,7 @@
     <MESSAGE value="lab 5" />
     <MESSAGE value="lab 6" />
     <MESSAGE value="lab 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab 7" />
+    <MESSAGE value="lab 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab 8" />
   </component>
 </project>
