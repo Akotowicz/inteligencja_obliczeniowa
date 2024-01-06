@@ -2,33 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ada4fbb-615f-4a26-ae0c-76d12b3b29c8" name="Changes" comment="lab 8">
-      <change afterPath="$PROJECT_DIR$/lab6/Zadanie2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab7/article1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/gan/generator_model_200.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/rnn-lstm/weights-improvement-01-3.0192.hdf5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/rnn-lstm/weights-improvement-02-2.8466.hdf5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/rnn-lstm/weights-improvement-03-2.7645.hdf5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/rnn-lstm/weights-improvement-04-2.6997.hdf5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/rnn-lstm/weights-improvement-05-2.6442.hdf5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/rnn-lstm/weights-improvement-06-2.5870.hdf5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/rnn-lstm/weights-improvement-07-2.5359.hdf5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/rnn-lstm/weights-improvement-08-2.4920.hdf5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/rnn-lstm/weights-improvement-09-2.4529.hdf5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/rnn-lstm/weights-improvement-10-2.4140.hdf5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/rnn-lstm/weights-improvement-11-2.3762.hdf5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/rnn-lstm/weights-improvement-12-2.3413.hdf5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/rnn-lstm/weights-improvement-13-2.3082.hdf5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/rnn-lstm/weights-improvement-16-2.2601.hdf5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/rnn-lstm/weights-improvement-17-2.2381.hdf5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/rnn-lstm/weights-improvement-18-2.2181.hdf5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/rnn-lstm/weights-improvement-19-2.2021.hdf5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/rnn-lstm/weights-improvement-20-2.1834.hdf5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/zad4.2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projekt/01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projekt/ImgConventer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projekt/Project1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projekt/Project1.py" beforeDir="false" afterPath="$PROJECT_DIR$/projekt/Project1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
