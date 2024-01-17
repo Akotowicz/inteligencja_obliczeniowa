@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ada4fbb-615f-4a26-ae0c-76d12b3b29c8" name="Changes" comment="lab 8">
+      <change afterPath="$PROJECT_DIR$/projekt/Project.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projekt/Project1.py" beforeDir="false" afterPath="$PROJECT_DIR$/projekt/Project1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab8/Zad4.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab8/Zad4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projekt/01.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projekt/Project1.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,11 +39,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lab8/Zad3.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/projekt" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Aga\Desktop\all\studia\magisterka\inteligencja_obliczeniowa\projekt" />
       <recent name="C:\Users\Aga\Desktop\all\studia\magisterka\inteligencja_obliczeniowa\lab6" />
       <recent name="C:\Users\Aga\Desktop\all\studia\magisterka\inteligencja_obliczeniowa\lab5" />
       <recent name="C:\Users\Aga\Desktop\all\studia\magisterka\inteligencja_obliczeniowa\lab4" />
@@ -53,7 +57,7 @@
       <recent name="C:\Users\Aga\Desktop\all\studia\magisterka\inteligencja_obliczeniowa\lab6" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Project1">
+  <component name="RunManager" selected="Python.Project">
     <configuration name="2.1" type="PythonConfigurationType" factoryName="Python">
       <module name="inteligencja_obliczeniowa" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -495,6 +499,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Project1-cpy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="inteligencja_obliczeniowa" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/projekt" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/projekt/Project1-cpy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Project1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="inteligencja_obliczeniowa" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -508,6 +533,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/projekt/Project1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Projectdens" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="inteligencja_obliczeniowa" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/projekt" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/projekt/Projectdens.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -600,48 +646,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lstm03" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="inteligencja_obliczeniowa" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab8/rnn-lstm" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab8/rnn-lstm/lstm03.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="lstm05" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="inteligencja_obliczeniowa" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab8/rnn-lstm" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab8/rnn-lstm/lstm05.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.lab1" />
       <item itemvalue="Python.lab2 - wstepne" />
@@ -666,19 +670,19 @@
       <item itemvalue="Python.8.1_____" />
       <item itemvalue="Python.gan07" />
       <item itemvalue="Python.8.3" />
-      <item itemvalue="Python.lstm03" />
-      <item itemvalue="Python.lstm05" />
       <item itemvalue="Python.ImgConventer" />
       <item itemvalue="Python.Project" />
       <item itemvalue="Python.Project1" />
+      <item itemvalue="Python.Project1-cpy" />
+      <item itemvalue="Python.Projectdens" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Project1" />
         <item itemvalue="Python.Project" />
+        <item itemvalue="Python.Projectdens" />
+        <item itemvalue="Python.Project1-cpy" />
+        <item itemvalue="Python.Project1" />
         <item itemvalue="Python.ImgConventer" />
-        <item itemvalue="Python.lstm05" />
-        <item itemvalue="Python.lstm03" />
       </list>
     </recent_temporary>
   </component>

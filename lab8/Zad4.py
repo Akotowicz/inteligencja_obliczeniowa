@@ -23,5 +23,3 @@ image.save("zad4.2.png")
 # # show image
 # import matplotlib.pyplot as plt
 # plt.imshow(image)
-
-# paczka ma 5GB
