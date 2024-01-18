@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ada4fbb-615f-4a26-ae0c-76d12b3b29c8" name="Changes" comment="lab 8">
-      <change afterPath="$PROJECT_DIR$/projekt/Project.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab8/Zad4.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab8/Zad4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projekt/01.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projekt/Project1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wykład 01 Alg. genetyczny .pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wykład 2 - IO2023-Alggen2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projekt/opis_projektu.docx" beforeDir="false" afterPath="$PROJECT_DIR$/projekt/opis_projektu.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
